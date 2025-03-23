@@ -1,0 +1,61 @@
+# ===== OS-specific Files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+*.env
+
+# ===== C/C++ =====
+*.exe
+*.out
+*.obj
+*.o
+*.gch
+*.log
+
+# ===== Java =====
+*.class
+*.jar
+
+# ===== JetBrains (IntelliJ, PyCharm, etc.) =====
+.idea/
+*.iml
+out/
+
+# ===== VS Code =====
+.vscode/
+*.code-workspace
+
+# ===== Git =====
+*.orig
+*.swp
+*.swo
+
+# ===== Jupyter Notebooks =====
+.ipynb_checkpoints/
+
+# ===== Node.js (in case you explore JS later) =====
+node_modules/
+npm-debug.log*
+
+# ===== Build / Cache =====
+build/
+dist/
+*.egg-info/
+.cache/
+*.tmp
+
+# ===== Mac/Linux hidden files =====
+*.~*
+*~
+
+# ===== Logs =====
+*.log
+logs/
